@@ -68,8 +68,8 @@
         <entry key="*.apk">
           <value>
             <plugin>
-              <option name="myPluginId" value="org.jetbrains.android" />
-              <option name="myPluginName" value="Android" />
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -854,8 +854,8 @@
         <entry key="*.psd">
           <value>
             <plugin>
-              <option name="myPluginId" value="org.jetbrains.android" />
-              <option name="myPluginName" value="Android" />
+              <option name="myPluginId" value="com.intellij.platform.images" />
+              <option name="myPluginName" value="com.intellij.platform.images" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -865,6 +865,42 @@
             <plugin>
               <option name="myPluginId" value="DBN" />
               <option name="myPluginName" value="Database Navigator" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.py">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="PythonCore" />
+              <option name="myPluginName" value="Python Community Edition" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.pyi">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="PythonCore" />
+              <option name="myPluginName" value="Python Community Edition" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.pyw">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="PythonCore" />
+              <option name="myPluginName" value="Python Community Edition" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.qrc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -918,6 +954,15 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.android" />
               <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.rst">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.rest" />
+              <option name="myPluginName" value="ReStructuredText" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1093,6 +1138,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ui">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="PythonCore" />
+              <option name="myPluginName" value="Python Community Edition" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1312,6 +1366,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="buildout.cfg">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="PythonCore" />
+              <option name="myPluginName" value="Python Community Edition" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="exclude">
           <value>
             <plugin>
@@ -1480,6 +1543,11 @@
                       <FeaturePluginData displayName="Maven" pluginName="Maven" pluginId="org.jetbrains.idea.maven" />
                     </value>
                   </entry>
+                  <entry key="PythonConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Python" pluginName="Python Community Edition" pluginId="PythonCore" />
+                    </value>
+                  </entry>
                   <entry key="Remote">
                     <value>
                       <FeaturePluginData displayName="Remote JVM Debug" pluginName="Java" pluginId="com.intellij.java" />
@@ -1495,6 +1563,11 @@
                       <FeaturePluginData displayName="TestNG" pluginName="TestNG" pluginId="TestNG-J" />
                     </value>
                   </entry>
+                  <entry key="Tox">
+                    <value>
+                      <FeaturePluginData displayName="tox" pluginName="Python Community Edition" pluginId="PythonCore" />
+                    </value>
+                  </entry>
                   <entry key="XSLT">
                     <value>
                       <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
@@ -1508,6 +1581,16 @@
                   <entry key="aws.lambda">
                     <value>
                       <FeaturePluginData displayName="AWS Lambda" pluginName="AWS Toolkit" pluginId="aws.toolkit" />
+                    </value>
+                  </entry>
+                  <entry key="docs">
+                    <value>
+                      <FeaturePluginData displayName="Python docs" pluginName="PythonCore" pluginId="PythonCore" />
+                    </value>
+                  </entry>
+                  <entry key="tests">
+                    <value>
+                      <FeaturePluginData displayName="Python tests" pluginName="Python Community Edition" pluginId="PythonCore" />
                     </value>
                   </entry>
                 </map>
@@ -1533,6 +1616,11 @@
                   <entry key="apk">
                     <value>
                       <FeaturePluginData displayName="APK" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="buildout-python">
+                    <value>
+                      <FeaturePluginData displayName="Buildout Support" pluginName="Python Community Edition" pluginId="PythonCore" />
                     </value>
                   </entry>
                   <entry key="java-gradle">
